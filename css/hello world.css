@@ -1,7 +1,7 @@
 #top-guideline{
 	display: inline-block;
 	border: 2px solid silver;
-	height: 60px;
+	height: 70px;
 	width: 100%;
 	position: fixed;
 	top: 0px;
@@ -10,14 +10,14 @@
 #top-guideline:hover{
 	display: inline-block;
 	border: 2px solid lightblue;
-	height: 60px;
+	height: 70px;
 	width: 100%;
 	position: fixed;
 	top: 0px;
 	left: 0px;
 }
 #top-guideline-replacement{
-	height: 60px;
+	height: 70px;
 	width: 100%;
 }
 #top-guideline .top-choices{
@@ -28,7 +28,7 @@
 	font-size: 14px;
 	font-weight: bold;
 	color: aqua;
-	height: 60px;
+	height: 70px;
 	width: 100px;
 	line-height: 60px;
 }
@@ -40,7 +40,7 @@
 	font-size: 14px;
 	font-weight: bold;
 	color: white;
-	height: 60px;
+	height: 70px;
 	width: 100px;
 	line-height: 60px;
 	background-color: aqua;
