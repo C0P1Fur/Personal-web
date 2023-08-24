@@ -1,7 +1,11 @@
+:root{
+	--TopLineHeight: 80px;
+}
+
 #top-guideline{
 	display: inline-block;
 	border: 2px solid silver;
-	height: 70px;
+	height: var(--TopLineHeight);
 	width: 100%;
 	position: fixed;
 	top: 0px;
@@ -10,14 +14,14 @@
 #top-guideline:hover{
 	display: inline-block;
 	border: 2px solid lightblue;
-	height: 70px;
+	height: var(--TopLineHeight);
 	width: 100%;
 	position: fixed;
 	top: 0px;
 	left: 0px;
 }
 #top-guideline-replacement{
-	height: 70px;
+	height: var(--TopLineHeight);
 	width: 100%;
 }
 #top-guideline .top-choices{
@@ -28,9 +32,9 @@
 	font-size: 14px;
 	font-weight: bold;
 	color: aqua;
-	height: 70px;
+	height: var(--TopLineHeight);
 	width: 100px;
-	line-height: 60px;
+	line-height: var(--TopLineHeight);
 }
 #top-guideline .top-choices:hover{
 	display: inline-block;
@@ -40,9 +44,9 @@
 	font-size: 14px;
 	font-weight: bold;
 	color: white;
-	height: 70px;
+	height: var(--TopLineHeight);
 	width: 100px;
-	line-height: 60px;
+	line-height: var(--TopLineHeight);	
 	background-color: aqua;
 }
 .description-box{
